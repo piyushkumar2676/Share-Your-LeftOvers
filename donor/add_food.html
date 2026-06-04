@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Food - Share Your Leftovers</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <h1>Share Your Leftovers</h1>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="dashboard.html">My Dashboard</a></li>
+            <li><a href="add_food.html">Add Food</a></li>
+            <li><a href="manage_requests.html">Requests</a></li>
+            <li><a href="../auth/login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <h2>Add New Food Listing</h2>
+        <p>Fill in the details of the food you want to share.</p>
+
+        <form id="addFoodForm" action="" method="POST">
+
+            <label for="food_name">Food Name</label>
+            <input type="text" id="food_name" name="food_name" placeholder="e.g. Rice, Bread, Curry">
+
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantity" name="quantity" placeholder="e.g. 2 kg, 5 plates, 1 pot">
+
+            <label for="location">Pickup Location</label>
+            <input type="text" id="location" name="location" placeholder="Enter your address">
+
+            <label for="pickup_time">Pickup Time</label>
+            <input type="datetime-local" id="pickup_time" name="pickup_time">
+
+            <label for="description">Additional Description</label>
+            <textarea id="description" name="description" placeholder="Any extra details about the food..."
+                rows="4"></textarea>
+
+            <button type="submit">Post Food Listing</button>
+            <a href="dashboard.html">Cancel</a>
+
+        </form>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Share Your Leftovers &copy; 2026 | Reducing food waste together</p>
+    </footer>
+    <script src="../assets/validation.js"></script>
+</body>
+
+</html>

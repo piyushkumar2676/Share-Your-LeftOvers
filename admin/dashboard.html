@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Share Your Leftovers</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+    
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <h1>Share Your Leftovers</h1>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="manage_users.html">Manage Users</a></li>
+            <li><a href="manage_donations.html">Donations</a></li>
+            <li><a href="manage_requests.html">Requests</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="../auth/login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <h2>Admin Dashboard</h2>
+        <p>Monitor and manage all activity on the platform.</p>
+
+        <!-- SUMMARY BOXES -->
+        <div class="summary-boxes">
+            <div>
+                <h3>Total Users</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Total Donors</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Total Receivers</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Total Donations</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Total Requests</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Completed Pickups</h3>
+                <p>0</p>
+            </div>
+        </div>
+
+        <!-- QUICK ACTIONS -->
+        <div class="quick-actions">
+            <h3>Quick Actions</h3>
+            <a href="manage_users.html">Manage Users</a>
+            <a href="manage_donations.html">View Donations</a>
+            <a href="manage_requests.html">View Requests</a>
+            <a href="reports.html">View Reports</a>
+        </div>
+
+        <!-- RECENT ACTIVITY -->
+        <div>
+            <h3>Recent Activity</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>User</th>
+                        <th>Details</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="5">No recent activity.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Share Your Leftovers &copy; 2026 | Reducing food waste together</p>
+    </footer>
+
+</body>
+
+</html>
+
+<!--http://localhost/share-leftovers/admin/dashboard.html-->

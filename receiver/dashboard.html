@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receiver Dashboard - Share Your Leftovers</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <h1>Share Your Leftovers</h1>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="dashboard.html">My Dashboard</a></li>
+            <li><a href="browse_food.html">Browse Food</a></li>
+            <li><a href="my_requests.html">My Requests</a></li>
+            <li><a href="../auth/login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <h2>Welcome, Receiver!</h2>
+        <p>Find available food listings near you.</p>
+
+        <!-- SUMMARY BOXES -->
+        <div class="summary-boxes">
+            <div>
+                <h3>My Requests</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Approved</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Completed Pickups</h3>
+                <p>0</p>
+            </div>
+        </div>
+
+        <!-- QUICK ACTIONS -->
+        <div class="quick-actions">
+            <h3>Quick Actions</h3>
+            <a href="browse_food.html">Browse Available Food</a>
+            <a href="my_requests.html">View My Requests</a>
+        </div>
+        <!-- RECENT REQUESTS -->
+        <div>
+            <h3>My Recent Requests</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Food Name</th>
+                        <th>Donor</th>
+                        <th>Location</th>
+                        <th>Pickup Time</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="6">You have not made any requests yet.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Share Your Leftovers &copy; 2026 | Reducing food waste together</p>
+    </footer>
+
+</body>
+
+</html>
+
+<!--http://localhost/share-leftovers/receiver/dashboard.html-->

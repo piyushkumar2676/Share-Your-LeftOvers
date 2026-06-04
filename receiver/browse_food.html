@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Food - Share Your Leftovers</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <h1>Share Your Leftovers</h1>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="dashboard.html">My Dashboard</a></li>
+            <li><a href="browse_food.html">Browse Food</a></li>
+            <li><a href="my_requests.html">My Requests</a></li>
+            <li><a href="../auth/login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <h2>Available Food Listings</h2>
+        <p>Browse and request food available near you.</p>
+
+        <!-- SEARCH BAR -->
+        <form method="GET" action="">
+            <input type="text" name="search" placeholder="Search food by name or location...">
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- FOOD LISTINGS -->
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Food Name</th>
+                        <th>Quantity</th>
+                        <th>Location</th>
+                        <th>Pickup Time</th>
+                        <th>Donor</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="7">No food listings available at the moment. Check back later.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Share Your Leftovers &copy; 2026 | Reducing food waste together</p>
+    </footer>
+
+</body>
+
+</html>

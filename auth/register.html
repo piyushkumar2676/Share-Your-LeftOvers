@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Share Your Leftovers</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <h1>Share Your Leftovers</h1>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <h2>Create Your Account</h2>
+
+        <form id="registerForm" action="register.php" method="POST">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Create a password">
+
+            <label for="role">Register As</label>
+            <select id="role" name="role">
+                <option disabled selected value="">-- Select Role --</option>
+                <option value="donor">Donor</option>
+                <option value="receiver">Receiver</option>
+            </select>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Share Your Leftovers &copy; 2026 | Reducing food waste together</p>
+    </footer>
+    <script src="../assets/validation.js"></script>
+</body>
+
+</html>
